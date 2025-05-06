@@ -79,7 +79,7 @@ export const PaymentDetailsPdf: React.FC<PaymentDetailsPdfProps> = ({
               {accountName ? accountName : "-"}
             </Text>
           </View>
-          <View style={pdfUtils.flexRowItemCenter}>
+          {/* <View style={pdfUtils.flexRowItemCenter}>
             <Text style={pdfTypography.paymentTitle}>Swift Code</Text>
             <Text
               style={{
@@ -90,7 +90,7 @@ export const PaymentDetailsPdf: React.FC<PaymentDetailsPdfProps> = ({
             >
               {swiftCode ? swiftCode : "-"}
             </Text>
-          </View>
+          </View> */}
           {ifscCode ? (
             <View style={pdfUtils.flexRowItemCenter}>
               <Text style={pdfTypography.paymentTitle}>IFSC Code</Text>

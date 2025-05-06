@@ -72,7 +72,7 @@ export const PaymentDetailsPreview: React.FC<
               <div className="rounded-[3.5px] bg-neutral-100 h-4 w-full animate-pulse" />
             )}
           </div>
-          <div className="mb-2 grid grid-cols-2 items-center">
+          {/* <div className="mb-2 grid grid-cols-2 items-center">
             <p className="truncate text-xs font-medium text-gray-500">
               Swift Code
             </p>
@@ -83,7 +83,7 @@ export const PaymentDetailsPreview: React.FC<
             ) : (
               <div className="rounded-[3.5px] bg-neutral-100 h-4 w-full animate-pulse" />
             )}
-          </div>
+          </div> */}
           {routingCode && (
             <div className="mb-2 grid grid-cols-2 items-center">
               <p className="truncate text-xs font-medium text-gray-500">

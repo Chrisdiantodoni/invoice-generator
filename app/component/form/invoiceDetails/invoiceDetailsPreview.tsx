@@ -34,7 +34,7 @@ export const InvoiceDetailsPreview: React.FC<
             Description
           </p>
         </div>
-        <div className="py-4 px-10 grid grid-cols-3 items-center">
+        <div className="py-4 px-2 grid grid-cols-3 items-center">
           <div>
             <p className="text-[11px] text-neutral-400 font-medium uppercase">
               QTY
@@ -46,7 +46,7 @@ export const InvoiceDetailsPreview: React.FC<
             </p>
           </div>
           <div>
-            <p className="text-[11px] text-neutral-400 font-medium uppercase text-right">
+            <p className="text-[11px] text-neutral-400 font-medium uppercase ">
               Amount
             </p>
           </div>
@@ -62,7 +62,7 @@ export const InvoiceDetailsPreview: React.FC<
           <p className="flex truncate text-xs font-medium text-gray-600">
             {itemDescription}
           </p>
-          <div className="pl-10 grid grid-cols-3 items-center">
+          <div className="pl-3 grid grid-cols-3 items-center">
             <p className="flex truncate text-xs font-medium text-gray-600">
               {qty || "-"}
             </p>
